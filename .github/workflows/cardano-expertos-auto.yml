@@ -1,9 +1,10 @@
-name: CardanoExpertos AutoTweet
+name: CardanoExpertos AutoTweet [DISABLED]
 
 on:
-  schedule:
-    - cron: '0 */8 * * *'  # Cada 8 horas
-  workflow_dispatch:
+  # DESACTIVADO - Migrado a bots-twitter-automated
+  # schedule:
+  #   - cron: '0 */8 * * *'  # Cada 8 horas
+  workflow_dispatch:  # Manual only
 
 jobs:
   tweet:
