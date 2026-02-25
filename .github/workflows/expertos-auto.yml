@@ -1,9 +1,10 @@
-name: MercadosExpertos AutoTweet
+name: MercadosExpertos AutoTweet [DISABLED]
 
 on:
-  schedule:
-    - cron: '0 */6 * * *'  # Cada 6 horas
-  workflow_dispatch:
+  # DESACTIVADO - Migrado a bots-twitter-automated
+  # schedule:
+  #   - cron: '0 */6 * * *'  # Cada 6 horas
+  workflow_dispatch:  # Manual only
 
 jobs:
   tweet:
