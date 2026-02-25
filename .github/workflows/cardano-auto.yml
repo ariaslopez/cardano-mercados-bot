@@ -1,9 +1,10 @@
-name: CardanoNEW AutoTweet
+name: CardanoNEW AutoTweet [DISABLED]
 
 on:
-  schedule:
-    - cron: '0 */3 * * *'  # Cada 3 horas
-  workflow_dispatch:  # Manual trigger
+  # DESACTIVADO - Migrado a bots-twitter-automated
+  # schedule:
+  #   - cron: '0 */3 * * *'  # Cada 3 horas
+  workflow_dispatch:  # Manual trigger only
 
 jobs:
   tweet:
